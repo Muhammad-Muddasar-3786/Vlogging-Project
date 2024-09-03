@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ html{
+    font-size: 62.5%;
+ }
+ body{
+    font-family:  sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    font-size: 1.4rem;
+ }
+ ul {
+list-style: none;
+ }
+ .header{
+    position: sticky;
+    top: 0;
+    background-color: #86e3b1;
+ }
+
+.nav-bar{
+    padding: 1rem;
+    max-width: 1200px;
+    margin:  auto;
+   
+
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 2rem;
+}
+.nav-bar ul li:hover{
+    background-color: #f7e709;
+    border: 2px solid #000;
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+/* hero-section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-content h1{
+    font-size: 6rem;
+    line-height: 1.2;
+}
+.hero-content h4{
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+.hero-image img{
+    border-radius: 5rem;
+}
+/* long card section */
+.h-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    margin: 2 rem 1 rem;
+    align-items: center;
+    border: 2px solid #dad5d5;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.card-content {
+    
+    padding: 1rem;
+    display: flex;
+    
+    flex-direction: column;
+    gap: 2 rem;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.read-btn{
+    all: unset;
+    font-weight: 600;
+    
+}
+.read-btn:hover{
+    background-color: #f71b9f;
+    border-bottom: 2px solid #fdfd07;
+}
+/* v card */
+.v-card{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 320px;
+    border: 2px solid #ddd8d8;
+    border-radius: 1rem;
+    align-items: center;
+   
+    overflow: hidden;
+}
+.card-container{
+   margin-top: 60px;
+   margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+}
+.card-wrap{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.v-card img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+   
+
+    
+
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+}
+
+
+
+
+/* post page */
+.post h1{
+font-size: 3rem;
+}
+.banner-image img{
+    width: 100%;
+    
+}
+.post hr{
+    margin: 3rem;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
